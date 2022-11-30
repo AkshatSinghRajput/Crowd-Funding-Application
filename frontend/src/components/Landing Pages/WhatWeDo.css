@@ -1,0 +1,21 @@
+#card__body{
+  height: 100%;
+  width: 100%;
+  padding: 2% 4%;
+  transition: all 0.8s;
+}
+
+#card__body:hover{
+  background-color: #7811F7;
+  box-shadow: rgb(177, 38, 212) 0px 3px 8px;
+  cursor: pointer;
+}
+
+#card__body:hover>h3{
+  color: rgba(2,0,36,1);
+}
+
+.card__icon{
+  font-size: 50px;
+  color: rgb(177, 38, 212);
+}

@@ -1,0 +1,98 @@
+.card_icons{
+    position: sticky;
+    top: 20%;
+    border-bottom: 8px solid rgb(225, 41, 246);
+}
+
+.startup_logo_img{
+    object-fit: cover;
+}
+
+.mail_icon_img{
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.view_review{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: rgb(225, 41, 246);
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+.view_review:hover{
+    background-color: #fff;
+    color: rgb(225, 41, 246);
+    border: 2px solid rgb(225, 41, 246);
+}
+
+.startup_label{
+    color: #fff;
+    font-weight: 400;
+}
+
+.startup_label_desc{
+    color: rgb(212, 183, 183);
+    font-weight: 200;
+    text-align: justify;
+}
+
+.startup_label_hr{
+    color: #fff;
+}
+
+.product_card{
+    width: 100%;
+    background-color: #fff;
+    border-top: 8px solid rgb(225, 41, 246);
+    position: sticky;
+    top: 20%;
+}
+
+.product_card_desc{
+    font-weight: 100;
+    font-size: 13px;
+    text-align: left;
+}
+
+.backer__btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(225, 41, 246);
+    color: #fff;
+    border: 2px solid rgb(225, 41, 246);
+    width: 100%;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+.backer__btn:hover{
+    background-color: transparent;
+    color: rgb(225, 41, 246);
+    border: 2px solid rgb(225, 41, 246);
+}
+
+.backer__btn:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.product_card_amount_input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px 5px;
+}

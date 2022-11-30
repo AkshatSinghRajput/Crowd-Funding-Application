@@ -1,0 +1,110 @@
+.top__heading{
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    font-size: 300%;
+    font-weight: 800;
+}
+
+.top__desc{
+    color: #f0d2d2;
+    font-weight: 600;
+}
+
+.resource__table{
+    color: #f0d2d2;
+    border-color: #7811F7;
+    text-align: justify;
+}
+
+.heading{
+    color: #7811F7;
+    font-weight: 800;
+}
+
+.table__head{
+    width: 15%;
+}
+
+tbody{
+    font-weight: 700;
+}
+
+.website__logo{
+    width: 100%;
+    height: 100%;
+}
+
+.right__icon{
+    margin-right: 1%;
+    color: rgb(123, 221, 123);
+}
+
+.cross__icon{
+    margin-right: 1%;
+    color: rgb(240, 68, 82);
+}
+
+.card__body{
+    background-color: transparent;
+    border: 2px solid #7811F7;
+    height: 440px;
+}
+
+.resource_card_img{
+    max-height: 200px;
+}
+
+.card__title{
+    color: #7811F7;
+    font-weight: 800;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card__desc{
+    color: #f0d2d2;
+    font-weight: 600;
+    display: -webkit-box;
+    text-align: justify;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.butn{
+    color: #f0d2d2;
+    width: 90%;
+    background-color: #7811F7;
+    font-weight: 800;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+.butn:hover{
+    color: #7811F7;
+    background-color: #f0d2d2;
+}
+
+.top__heading1{
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    font-size: 300%;
+    font-weight: 900;
+}
+@media only screen and (max-width: 800px){
+    table{
+        display: none;
+    }
+    .top__heading{
+        display: none;
+    }
+    .top__heading1{
+        font-size: 200%;
+    }
+}

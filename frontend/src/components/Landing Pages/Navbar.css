@@ -1,0 +1,101 @@
+.top__head{
+    background-color: transparent;
+    z-index: 9999;
+}
+
+.custom-toggler.navbar-toggler {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.togg__icon{
+    color: #fff;
+}
+
+.head{
+    margin-left: 5rem;
+    color:#fff;
+    font-size: 2rem;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+}
+
+.head:hover{
+    color: rgb(177, 38, 212);
+}
+
+.sub__head{
+    position: absolute;
+    right: 4rem;
+    font-size: 1rem;
+}
+
+.sub__head__first{
+    padding: 0 2rem;
+} 
+
+.link__first{
+    color: rgb(246, 242, 247);
+    font-weight: 700;
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.link__first:hover{
+    color: rgb(177, 38, 212);
+    border-bottom: 1px solid rgb(177, 38, 212);
+}
+
+.link__second{
+    color: rgb(246, 242, 247);
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.link__second:hover{
+    color: rgb(177, 38, 212);
+    border-bottom: 1px solid rgb(177, 38, 212);
+}
+
+.link__third{
+    color: rgb(246, 242, 247);
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.link__third:hover{
+    color: rgb(177, 38, 212);
+    border-bottom: 1px solid rgb(177, 38, 212);
+}
+
+.link__fourth{
+    color: rgb(246, 242, 247);
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.link__fourth:hover{
+    color: rgb(177, 38, 212);
+    border-bottom: 1px solid rgb(177, 38, 212);
+}
+
+.sub__head__second{
+    padding: 0 2rem;
+}
+
+.sub__head__third{
+    padding: 0 2rem;
+}
+
+.sub__head__fourth{
+    padding: 0 2rem;
+}
+
+@media only screen and (max-width: 973px){
+    .head{
+        margin-left: 1rem;
+    }
+    .sub__head{
+        position: relative;
+        right: -5%;
+    }
+}

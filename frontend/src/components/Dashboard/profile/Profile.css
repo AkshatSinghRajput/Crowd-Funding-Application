@@ -1,0 +1,80 @@
+.profile_card{
+    background-color: #000;
+    padding: 20px 40px;
+    margin-top: 4%;
+    border-top: 8px solid rgb(225, 41, 246);
+    border-radius: 10px;
+}
+
+.profile_head{
+    color: #fff;
+}
+
+.avatar_img{
+    height: 50%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user_name{
+    color: #fff;
+}
+
+.labels{
+    color: rgb(179, 190, 190);
+    font-size: 13px;
+}
+
+.labels_desc{
+    padding: 5px 0;
+    color: #fff;
+    border-bottom: 1px solid rgb(123, 120, 120);
+    width: 75%;
+}
+
+.profile_password_input{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(123, 120, 120);
+}
+
+.profile_password_input:focus{
+    outline: none;
+}
+
+.change_password_btn{
+    background-color: rgb(225, 41, 246);
+    color: #fff;
+    border: 2px solid rgb(255, 41, 246);
+    transition: all 0.5s ease;
+}
+
+.change_password_btn:hover{
+    background-color: transparent;
+    color:rgb(225, 41, 246);
+    border: 2px solid rgb(255, 41, 246);
+}
+
+@media only screen and (max-width : 1200px) and (min-width: 990px){
+    .avatar_img{
+        height: 50%;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width : 989px) and (min-width: 770px){
+    .avatar_img{
+        height: 70%;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width : 769px) and (min-width: 450px){
+    .avatar_img{
+        height: 60%;
+        width: 30%;
+    }
+}

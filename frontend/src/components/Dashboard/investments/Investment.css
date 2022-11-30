@@ -1,0 +1,145 @@
+.investment_heading{
+    color: rgb(225, 41, 246);
+    font-weight: 400;
+}
+
+.investment_card{
+    width: 100%;
+    height: 67%;
+    padding: 5px 10px;
+    border-radius: 0;
+    border: 2px solid rgb(225, 41, 246);
+    /* background: rgba( 129, 140, 231, 0.4 ); */
+    background: rgba( 33, 48, 119, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+
+.investment_img{
+    height: 168px;
+    width: 100%;
+    object-fit: contain;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.investment_card_left_column{
+    margin-left: 0;
+}
+
+.investment_card_title_row{
+    margin-top: 3%;
+}
+
+.investment_card_title{
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.investment_card_date{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(183, 182, 182);
+    text-align: end;
+    margin-right: 18%;
+}
+
+.investment_card_desc_row{
+    margin-top: 2%;
+}
+
+.investment_card_desc{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(183, 182, 182);
+    display: -webkit-box;
+    text-align: justify;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.investment_card_bottom_row{
+    margin-top: 2%;
+}
+
+.investment_card_amount{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 7%;
+}
+
+@media only screen and (max-width : 1200px) and (min-width: 770px){
+    .investment_card{
+        height: 70%;
+        width: 100%;
+    }
+
+    .investment_card_date{
+        text-align: end;
+        margin-right: 40%;
+    }
+}
+
+@media only screen and (max-width : 769px) and (min-width: 500px){
+    .investment_card{
+        height: 77%;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .investment_img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .investment_card_desc{
+        text-align: justify;
+    }
+
+    .investment_card_amount{
+        text-align: start;
+    }
+
+    .investment_card_date{
+        text-align: end;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width : 499px){
+    .investment_card{
+        height: 77%;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .investment_img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .investment_card_desc{
+        text-align: justify;
+    }
+
+
+    .investment_card_amount{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .investment_card_date{
+        text-align: center;
+        margin-right: 0;
+    }
+}

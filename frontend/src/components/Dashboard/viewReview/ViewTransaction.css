@@ -1,0 +1,36 @@
+.view_transaction_card{
+    border: 1px solid rgb(225, 41, 246);
+    transition: all 0.2s ease-in-out;
+}
+
+.view_transaction_card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.transac_amount{
+    text-align: end;
+    margin-right: 35%;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 520px){
+    .transac_amount{
+        text-align: center;
+        margin-right: 0;
+    }    
+    
+    .transac_date{
+        text-align: center;
+    }  
+}
+
+@media only screen and (max-width: 519px){
+    .transac_amount{
+        text-align: center;
+        margin-right: 0;
+    }    
+    
+    .transac_date{
+        text-align: center;
+    }
+}

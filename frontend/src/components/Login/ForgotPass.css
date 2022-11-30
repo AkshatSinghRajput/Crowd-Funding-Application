@@ -1,0 +1,82 @@
+.forgotPassCard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    margin-top: 5%;
+    padding: 40px 10px;
+    border-top: 8px solid rgb(225, 41, 246);
+    border-bottom: 8px solid rgb(225, 41, 246);
+}
+
+.forgotPassImg{
+    width: 20%;
+    height: 20%;
+    font-weight: 800;
+}
+
+.forgotPassHead{
+    margin-top: 3%;
+}
+
+.forgotPassInput{
+    border: 2px solid rgb(225, 41, 246);
+    border-radius: 5px;
+}
+
+.reset_btn{
+    background-color: rgb(225, 41, 246);
+    border: 2px solid rgb(225, 41, 246);
+    border-radius: 5px;
+    color: #fff;
+    width: 40%;
+    margin-top: 5%;
+    transition: all 0.5s ease-in-out;
+}
+
+.reset_btn:hover{
+    background-color: transparent;
+    color: rgb(225, 41, 246);
+    border: 2px solid rgb(225, 41, 246);
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 900px){
+    .forgotPassCard{
+        width: 80%;
+        margin-top: 25%;
+    }
+
+    .forgotPassInput{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 899px) and (min-width: 400px){
+    .forgotPassCard{
+        width: 80%;
+        margin-top: 30%;
+    }
+
+    .reset_btn{
+        width: 60%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 399px){
+    .forgotPassCard{
+        width: 80%;
+        margin-top: 37%;
+    }
+
+    .forgotPassInput{
+        width: 100%;
+    }
+
+    .reset_btn{
+        width: 100%;
+        margin-top: 15%;
+    }
+}

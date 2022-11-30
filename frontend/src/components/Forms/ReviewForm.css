@@ -1,0 +1,22 @@
+.rating_btn{
+    background-color: transparent;
+    border: 2px solid #000;
+    outline: none;
+}
+
+.rating_btn:focus{
+  box-shadow: none;
+  outline: none;
+  border: 2px solid #000;
+}
+
+.review_image{
+  height: 450px;
+  position: sticky;
+  top: 0;
+}
+
+.form_submit_btn:focus{
+  box-shadow: none;
+  outline: none;
+}

@@ -1,0 +1,105 @@
+.error {
+    /* color: rgb(177, 38, 212); */
+    font-size: 70px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px rgb(212, 38, 38);
+    color: rgba(2, 0, 36, 1);
+    text-shadow:
+      3px 3px 0 #000, 
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(233, 229, 221);
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+      typing 1.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  
+    to {
+      width: 100%
+    }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+  
+    from,
+    to {
+      border-color: transparent
+    }
+  
+    50% {
+      border-color: transparent
+    }
+  }
+  
+  svg {
+    width: 100px;
+    display: block;
+    margin: 40px auto 0;
+  }
+  
+  .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+  }
+  
+  .circle {
+    -webkit-animation: dash 3.5s ease-in-out;
+    animation: dash 3.5s ease-in-out;
+  }
+  
+  .line {
+    stroke-dashoffset: 1000;
+    -webkit-animation: dash 3.5s .35s ease-in-out forwards;
+    animation: dash 3.5s .35s ease-in-out forwards;
+  }
+  
+  
+  /* p {
+    text-align: center;
+    margin: 20px 0 60px;
+    font-size: 1.25em;
+  }
+  
+  p .error {
+    color: #D06079;
+  } */
+  
+  
+  
+  @-webkit-keyframes dash {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+  
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+  
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }

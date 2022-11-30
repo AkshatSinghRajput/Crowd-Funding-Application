@@ -1,0 +1,45 @@
+.review_card{
+    border-top: 8px solid rgb(225, 41, 246);
+    border-bottom: 8px solid rgb(225, 41, 246);
+}
+
+.transaction_card{
+    max-height: 480px;
+    border-top: 8px solid rgb(225, 41, 246);
+    border-bottom: 8px solid rgb(225, 41, 246);
+    overflow-y: scroll;
+}
+
+.star_label{
+    text-align: center;
+}
+
+.ratings{
+    margin-left: 14%;
+    margin-top: -10px;
+}
+
+.star_img{
+    height: 30px;
+    width: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+@media only screen and (max-width: 990px) and (min-width: 770px){
+    .ratings{
+        margin-left: 37%;
+    }  
+}
+
+@media only screen and (max-width: 769px) and (min-width: 520px){
+    .ratings{
+        margin-left: 32%;
+    }  
+}
+
+@media only screen and (max-width: 519px){
+    .ratings{
+        margin-left: 26%;
+    }  
+}

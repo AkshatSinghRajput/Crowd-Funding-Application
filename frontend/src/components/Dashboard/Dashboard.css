@@ -1,0 +1,25 @@
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #7811F7;
+    border-bottom: 1px solid #7811F7;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+div.scrollmenu h5 {
+    display: inline-block;
+    color: rgb(177, 38, 212);
+    text-align: center;
+    padding: 5px 14px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+div.scrollmenu h5:hover {
+    color: #f0d2d2;
+}

@@ -1,0 +1,187 @@
+.login__card{
+    width: 70%;
+    height: 100%;
+    margin-top: 4%;
+    padding: 2rem 2rem;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.login__image{
+    margin-top: 10%;
+}
+
+.login__head{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.login__para{
+    font-weight: 800;
+    font-size: 1rem;
+    color: rgb(196, 189, 189);
+}
+
+.email__icon{
+    margin-top: 1rem;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    color: rgb(140, 96, 245);
+}
+
+.input__email{
+    width: 100%;
+    padding: 0.5rem;
+    text-align:left;
+    text-indent: 35px;
+    outline: none;
+}
+
+.input__email:focus{
+    padding-left: 3rem;
+    border: 2px solid rgb(140, 96, 245);
+    color: rgb(140, 96, 245);
+    font-weight: 700;
+    text-indent: 0px;
+}
+
+.input__email::placeholder{
+    padding-left: 3rem;
+    font-weight: 500;
+    text-indent: 0px;
+}
+
+.input__email:focus::placeholder{
+    color: transparent;
+}
+
+.password__icon{
+    margin-top: 1.5rem;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    color: rgb(140, 96, 245);
+}
+
+.input__password{
+    width: 100%;
+    padding: 0.5rem;
+    text-indent: 35px;
+    outline: none;
+}
+
+.input__password:focus{
+    padding-left: 3rem;
+    border: 2px solid rgb(140, 96, 245);
+    color: rgb(140, 96, 245);
+    text-indent: 0px;
+}
+
+.input__password::placeholder{
+    padding-left: 3rem;
+    font-weight: 500;
+    text-indent: 0px;
+}
+
+.input__password:focus::placeholder{
+    color: transparent;
+}
+
+.login__button{
+    margin-top: 2rem;
+    outline: none;
+    border-radius: 10rem;
+    width: 40%;
+    padding: 0.5rem 0;
+    background-color: rgb(140, 96, 245);
+    border: 2px solid rgb(140, 96, 245);
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.go__signup{
+    margin-top: 1rem;
+}
+
+.login__button:hover{
+    background-color: #fff;
+    color: rgb(140, 96, 245);
+    border: 2px solid rgb(140, 96, 245);
+}
+
+@media only screen and (max-width: 474px){
+    .login__card{
+        width: 100%;
+        max-height: 100%;
+        box-shadow: none;
+        margin-top: 0rem;
+    }
+
+    .input__email{
+        border: 1px solid black;
+    }
+
+    .input__password{
+        border: 1px solid black;
+    }
+
+    .login__btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .login__button{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 762px) and (min-width: 475px){
+    .login__card{
+        box-shadow: none;
+        max-height: 100%;
+    }
+
+    .input__email{
+        border: 1px solid black;
+    }
+
+    .input__password{
+        border: 1px solid black;
+    }
+
+    .login__btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .login__button{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1519px) and (min-width: 761px){
+    .login__card{
+        box-shadow: none;
+        max-height: 100%;
+    }
+
+    .input__email{
+        border: 1px solid black;
+    }
+
+    .input__password{
+        border: 1px solid black;
+    }
+
+    .login__btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .login__button{
+        width: 70%;
+    }
+}

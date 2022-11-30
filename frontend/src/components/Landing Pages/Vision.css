@@ -1,0 +1,24 @@
+.vision__image{
+    width: 80%;
+    height: 50%;
+    border-radius: 1rem;
+    border-top: 1px solid #7811F7;
+}
+
+.vision__heading{
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    font-size: 350%;
+    font-weight: 900;
+}
+
+.vision__desc{
+    color: #7811F7;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 989px) and (min-width: 769px){
+    
+}
+
