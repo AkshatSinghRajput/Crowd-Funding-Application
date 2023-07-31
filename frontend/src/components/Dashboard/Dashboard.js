@@ -21,7 +21,7 @@ const Dashboard = () => {
     setTimeout(() => {
       setLoading(false);
     }, 1000);
-  }, [startups])
+  }, [])
 
   const resourceCopy = [...startups];
   const FilteredList = resourceCopy.filter((element) => {

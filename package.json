@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-both": "npm install && npm install --prefix frontend",
+    "start": "nodemon app.js",
+    "deploy": "npm run build --prefix frontend && node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +21,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.4",
     "nodemailer": "^6.7.3",
+    "path": "^0.12.7",
     "razorpay": "^2.8.1"
   },
   "devDependencies": {

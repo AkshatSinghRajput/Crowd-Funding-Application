@@ -132,8 +132,7 @@ router.post(
   }
 );
 
-// Invest In Startup is Pending 
-//...............
+
 router.get("/get-razorpay-key", fetchuser, (req, res) => {
   return res.json({ success: true, key: process.env.RAZORPAY_KEY_ID })
 })
