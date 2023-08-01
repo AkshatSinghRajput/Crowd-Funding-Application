@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install-both": "npm install && npm install --prefix frontend",
+    "install-both": "npm install && npm install --legacy-peer-deps --prefix frontend",
     "start": "nodemon app.js",
     "start-server": "node app.js",
     "deploy": "npm run build --prefix frontend && node app.js",

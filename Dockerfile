@@ -7,14 +7,14 @@ WORKDIR /app
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
+# Copy package.json and package-lock.json to the working directory
+COPY frontend/package*.json frontend/
+
 # Install Node.js dependencies for frontend (Client) and backend (Server)
 RUN npm run install-both
 
-# Copy the entire project directory to the working directory
-COPY . .
-
-# Copy the .env file to the container
-COPY .env .env
+# Copy all file to the container
+COPY . ./
 
 # Build the production version of the React.js frontend code
 RUN npm run build --prefix frontend
