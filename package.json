@@ -9,7 +9,7 @@
     "start": "nodemon app.js",
     "start-server": "node app.js",
     "deploy": "npm run build --prefix frontend && node app.js",
-    "build": "npm run install-both && npm run build --prefix frontend"
+    "build": "CI=false npm run install-both && npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
