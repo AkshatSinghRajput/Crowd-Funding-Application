@@ -12,10 +12,21 @@ public feedback and reach.
 - User: The user has to log in to see the startups registered, and also can give the funding and rating.
 - Startup: A startup needs to be registered so that it can be funded.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
 ## Setup
 ### Frontend
 Frontend Setup: [Frontend Setup](/frontend/README.md)
+### Node.js Setup
+This document provides instructions on how to set up Node.js on your computer.
+#### Prerequisites
+* You will need a computer with a working internet connection.
+* You will need a text editor, such as Visual Studio Code or Sublime Text.
+#### Instructions
+1. Download the Node.js installer from the [Node.js website](https://nodejs.org/en/download/).
+2. Run the installer and follow the on-screen instructions.
+3. Once Node.js is installed, open a command prompt or terminal window.
+4. Type the following command and press Enter: ```node -v```
+#### Project Setup
+1. Go to the terminal and type ```npm install``` to install all the node packages.
+2. Now Add the .env file with Credentials.
+3. To Start the server type ```npm start```.
 
