@@ -22,7 +22,7 @@
     "express-validator": "^6.14.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.11.3",
-    "nodemailer": "^6.7.3",
+    "nodemailer": "^6.9.9",
     "path": "^0.12.7",
     "razorpay": "^2.8.1"
   },
